@@ -1,0 +1,174 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>简历生成器</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait"></div>
+                
+                <h1 id="username" contenteditable="true">费奎</h1>
+                <h4 id="persona-tag" contenteditable="true">Java开发工程师</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title" contenteditable="true">基本信息</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label" contenteditable="true">姓名</label><span class="label-value" contenteditable="true"><span style="display: inline !important;">费奎</span></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true"><span style="display: inline !important;">最高学历</span></label><span class="label-value" contenteditable="true">本科</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">毕业院校</label><span class="label-value" contenteditable="true"><span style="background-color: rgb(245, 245, 245); display: inline !important;">武汉生物工程学院</span></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">毕业年份</label><span class="label-value" contenteditable="true">2016</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title" contenteditable="true">联系方式</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label" contenteditable="true">手机</label><span class="label-value" contenteditable="true"><span style="background-color: rgb(245, 245, 245); display: inline !important;">18696273687</span></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">邮箱</label><span class="label-value" contenteditable="true"><span style="display: inline !important;">499278892@qq.com</span></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true"><span style="display: inline !important;">居住地</span></label><span class="label-value" contenteditable="true"><span style="background-color: rgb(245, 245, 245); display: inline !important;">武汉青山</span></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title" contenteditable="true">技能点</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label" contenteditable="true"><span style="display: inline !important;">Java</span></label>
+                        <progress value="80" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">html/css</label>
+                        <progress value="50" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">Javascript</label>
+                        <progress value="48.4375" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true"><span style="background-color: rgb(245, 245, 245); display: inline !important;">Linux</span></label>
+                        <progress value="23.4375" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title" contenteditable="true">技术栈</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label" contenteditable="true">前端</label><span class="label-value" contenteditable="true"><span style="display: inline !important;">jQuery、bootstrap、easyUI、XML、json、UEditor、ECharts</span></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
+                    <li>
+                        <label class="left-label" contenteditable="true">后端</label><span class="label-value" contenteditable="true"><span style="background-color: rgb(245, 245, 245); display: inline !important;">SpringMVC、Spring Boot、MyBatis、JDBC</span></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
+                    <li>
+                        <label class="left-label" contenteditable="true">其它</label><span class="label-value" contenteditable="true"><span style="background-color: rgb(245, 245, 245); display: inline !important;">MySQL、Tomcat、GIT、SVN、</span><span style="display: inline !important;">Oracle11g</span><span style="display: inline !important;">、jetty，RabbitMQ</span></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title" contenteditable="true">个人微信</span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="static/image/weixin.png" alt="">
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title" contenteditable="true">教育经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3 contenteditable="true">武汉生物工程学院 - 电子商务（大专）2013-2016</h3>
+                       
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                <li>
+                        <h3 contenteditable="true">武汉生物工程学院 - 行政管理（本科）2014-2017</h3>
+                       
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li></ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title" contenteditable="true">工作经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3 contenteditable="true">2016.5 - 2017.7&nbsp;&nbsp;<div>武汉千鸟网络科技有限公司 | 研发部 | Java开发工程师</div></h3>
+                        <p contenteditable="true">工作描述：<br><div><span style="background-color: rgb(255, 255, 255); display: inline !important;"><div>1、项目前期需求调研、参与数据表设计、项目编码、通过测试、修复BUG</div><div>2、学习项目所需技术架构</div><div>3、参与项目交付演示、部分文档撰写</div><div>4、项目部署及后期维护（Windows2003）</div></span></div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <h3 contenteditable="true">2017.8 - 2018.2&nbsp;&nbsp;<div>广州浩图信息科技有限公司 | 研发部 | Java开发工程师</div></h3>
+                        <p contenteditable="true">工作描述：<br><div><span style="background-color: rgb(255, 255, 255); display: inline !important;"><div>sql优化、根据项目需求完成相应模块编码</div></span></div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                <li>
+                        <h3 contenteditable="true"><span style="font-size: 18.72px;">2018.5 - 至今&nbsp;</span><div><span style="font-size: 18.72px;">武汉好医家科技有限公司 | 研发部 | Java开发工程师</span><br></div></h3>
+                        <p contenteditable="true">工作描述：<br><div><span style="background-color: rgb(255, 255, 255); display: inline !important;"><div>1、参与数据表设计、项目管理后台搭建及编码</div><div>2、远程调用第三方接口为前端提供服务</div><div>3、配合运维完成项目部署（Linux）、数据迁移</div><div>4、跟踪用户反馈、保持有效沟通</div></span></div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li></ul>
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title" contenteditable="true">个人项目</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3 contenteditable="true">武汉亚心总医院官网 | 2019.1 - 2019.5</h3>
+                        <p contenteditable="true">
+                            开发环境：Tomcat 8、MySQL<div>技术选型：Spring Boot、MyBatis、VUE、JSP</div><div>项目描述：&nbsp;</div><div>该项目为武汉亚心总医院外接项目，主要功能包括医院信息介绍、新闻查阅、线上挂号及退款；管理员由管理后台发布各模块咨询、维护科室、医生及医院基本信息，官网提供用户注册、挂号服务&nbsp;</div><div>责任描述：</div><div>网站用户注册流程、挂号流程、管理后台编码；提供前端数据接口；数据迁移、项目部署&nbsp;                            <br>
+                        </div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <h3 contenteditable="true">人福杏林谷药事服务 | 2018.8 - 2019.1</h3>
+                        <p contenteditable="true">
+                            开发环境：Tomcat 8、MySQL
+                        <div>技术选型：Spring Boot、SpringMvC、MyBatis、VUE、JSP&nbsp;</div><div>项目描述：&nbsp;</div><div>为人福杏林谷智慧药房提供在线购药的程序，用户通过关注微信公众号入口提交购药需求，药师在线审方，店员进行配送，送达后验收付款&nbsp;</div><div>责任描述：&nbsp;</div><div>对微信端提供数据接口、管理后台编码；订单查看、审核、配药及导出；微信用户角色变更；基本信息维护；配送单打印<br></div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <h3 contenteditable="true">班组绩效系统 | 2017.8 - 2018.2</h3>
+                        <p contenteditable="true">
+                            开发环境：Tomcat 6、Oracle
+                        <div>技术选型：Spring MVC、JDBC、TopJUI&nbsp;</div><div>项目描述： 在试点班组的班员绩效考核中，实现支撑考核评价的工作行为数据通过信息系统自动收集，规范考核支撑数据的收集过程，减轻收集考核支撑数据的工作量, 提高参与绩效考核的积极性。&nbsp;</div><div>责任描述：&nbsp;</div><div>360测评功能模块的开发，数据表设计，大数据查询时速度慢sql优化<br></div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <h3 contenteditable="true">供应商绩效评价管理系统 | 2017.3 - 2017.7</h3>
+                        <p contenteditable="true">
+                            开发环境：Tomcat 6、Oracle
+                        <div>技术选型：Spring MVC、JDBC、easyUI&nbsp;</div><div>项目描述：&nbsp;</div><div>根据省公司物资部对物资调配平台建设的业务需求，国网总部或省公司专业管理要求，创建供应商绩效评价任务，设置参评供应商清单、参评物料清单、参评评价指标等任务相关信息，对供应商进行打分评价，汇总结果，进一步提升供应商绩效评价的工作效率，更好的为招标采购提供客观的评价结果&nbsp;</div><div>责任描述：&nbsp;</div><div>任务创建及导入各个参评表单，进入审批工作流程、汇总打分制作成动态报表展示，动态导出，部署项目，项目上线后期的维护维护。<br></div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
+            </div>
+            
+            
+        </div>
+    </div>
+
+
+
+<div class="remodal-overlay remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="portrait-modal" tabindex="-1">
+                    <h3 contenteditable="true">请输入图片URL地址：</h3>
+                    <br>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="weixin-modal" tabindex="-1">
+                <h3 contenteditable="true">请输入图片URL地址：</h3>
+                <br>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div></div></body></html>
